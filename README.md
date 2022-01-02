@@ -13,4 +13,4 @@ This scripts also includes a maya string attribute in the root of group node and
 
 ## SGTK Hooks In Action
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g71p3cnA8gc/0.jpg)](https://www.youtube.com/watch?v=g71p3cnA8gc)
