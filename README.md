@@ -2,7 +2,7 @@
 
 An Maya custom publisher hooks for mesh and camera. The publisher sucsess only after all the validations passes in a Shot level.
 
-## SGTK Hooks In Action
+## SGTK Hooks In Action :point_down: [Youtube Link]
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g71p3cnA8gc/0.jpg)](https://www.youtube.com/watch?v=g71p3cnA8gc)
 
