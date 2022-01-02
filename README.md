@@ -2,25 +2,26 @@
 
 An Maya custom publisher hooks for mesh and camera. The publisher sucsess only after all the validations passes in a Shot level.
 
+## SGTK Hooks In Action
 
-<ins>collector.py</ins>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g71p3cnA8gc/0.jpg)](https://www.youtube.com/watch?v=g71p3cnA8gc)
+
+### <ins>collector.py</ins>
 
  Collects all the cameras and meshes in the maya files.
  
-<ins>publishmesh.py and publishcamera.py </ins>
+### <ins>publishmesh.py and publishcamera.py </ins>
 
 Automatically convert the alembic of the root group node into the published path and made a entry in the Shotgrid.
 This scripts also includes a maya string attribute in the root of group node and assigns the starting frame of the maya playblack to that attribute.
 In later Maya loads, the alembic offset values are reconfigured to fit to the Maya playback start frame. 
 
-<ins>Namespacemanger.py</ins>
+### <ins>Namespacemanger.py</ins>
 
 Rename the references based upon the naming convention. 
 
-<ins>tk-maya-loader2.py</ins>
+### <ins>tk-maya-loader2.py</ins>
 
 3dequalizer and maya exported alembic datas may have different starting frame of each shots.  This custom hook parse the alembic file startframe , check the maya playback startframe with the parsed alembic frame value. if not matches, the hook just replaces the alembic node offset value with the parsed value.
 
-## SGTK Hooks In Action
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g71p3cnA8gc/0.jpg)](https://www.youtube.com/watch?v=g71p3cnA8gc)
