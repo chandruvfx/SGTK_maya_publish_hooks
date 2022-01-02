@@ -2,10 +2,16 @@
 
 An Maya custom publisher hooks for mesh and camera. The publisher sucsess only after all the validations passes in a Shot level.
 
-<ins>publishmesh.py and publishcamera.py </ins>
+
+<ins>collector.py</ins>
+
+ Collects all the cameras and meshes in the maya files.
  
-Collects all the cameras and meshes in the maya files and automatically convert the alembic of the root group node into the published path and made a entry in the Shotgrid.
-This scripts also includes a maya string attribute in the root of group node and assigns the starting frame of the maya playblack to that attribute. 
+ <ins>publishmesh.py and publishcamera.py </ins>
+
+Automatically convert the alembic of the root group node into the published path and made a entry in the Shotgrid.
+This scripts also includes a maya string attribute in the root of group node and assigns the starting frame of the maya playblack to that attribute.
+In later Maya loads, the alembic offset values are reconfigured to fit to the Maya playback start frame. 
 
 <ins>tk-maya-loader2.py</ins>
 
