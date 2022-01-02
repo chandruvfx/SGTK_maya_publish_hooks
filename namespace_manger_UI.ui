@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FWX Name Space Manager 1.0</string>
+  </property>
+  <widget class="QLineEdit" name="qlineedit_input_text">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>30</y>
+     <width>211</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Type Name Space Text Here...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="qlbl_nodename">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>40</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Namespace</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="qgrpbox_apply">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+border:0.5px solid darkgray;
+}
+QGroupBox::title
+{
+subcontrol-origin: margin;
+left: 16px;
+padding: -8 0 -3 0;
+}</string>
+   </property>
+   <property name="title">
+    <string>Apply to</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QRadioButton" name="qradiobtn_allnodes">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>104</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>All nodes</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="qradiobtn_selnodes">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>191</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Only Selected Nodes</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="qgrpbox_select_naming">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+border:0.5px solid darkgray;
+}
+QGroupBox::title
+{
+subcontrol-origin: margin;
+left: 8px;
+padding: -2 0 2 0;
+}</string>
+   </property>
+   <property name="title">
+    <string>Select Naming Convention</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QRadioButton" name="qradiobtn_MMtrackalembic">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MMtrackalembic</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="qradiobtn_fxgeo">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>70</y>
+      <width>104</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>fxgeo</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="qradiobtn_lgtgeo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>104</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>lgtgeo</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="qradiobtn_layoutgeo">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>104</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>layoutgeo</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="qradiobtn_animgeo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>104</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>animgeo</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RAtrackalembic</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="qbtn_proceed">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>230</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Proceed</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
