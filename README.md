@@ -22,6 +22,6 @@ Rename the references based upon the naming convention.
 
 ### <ins>tk-maya-loader2.py</ins>
 
-3dequalizer and maya exported alembic datas may have different starting frame of each shots.  This custom hook parse the alembic file startframe , check the maya playback startframe with the parsed alembic frame value. if not matches, the hook just replaces the alembic node offset value with the parsed value.
+3dequalizer and maya shotgrid published alembic datas may have different starting frame of each shots.  This custom hook parse the alembic file startframe , check the maya playback startframe with the parsed alembic frame value. if not matches, the hook just replaces the alembic node offset value with the parsed value.
 
 
